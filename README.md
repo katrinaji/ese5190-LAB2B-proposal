@@ -27,7 +27,9 @@ Team members: Katrina Ji, Yuchen Wang
 ## Outline
 Since the goal of the lab is to practice using I2C communication, our team would like to make a project around this topic. We would like to stcik with I2C and preserve “daisy-chain-ability” with other I2C sensors. Thus, we are using two RP2040s. The second on our daughter board as a second microcontroller to handle I2C.
 
-We would like to make a LED-array design with a switch to control it. The inital LEDs will present a pumpkin pattern. When toggling the switch, the pattern will change and a ghoastface will appear. If possible, we want to toggle the switch again, and both the ghoastface and pumpkin pattern will be lit. 
+(Inital Thought)We would like to make a LED-array design with a switch to control it. The inital LEDs will present a pumpkin pattern. When toggling the switch, the pattern will change and a ghoastface will appear. If possible, we want to toggle the switch again, and both the ghoastface and pumpkin pattern will be lit. 
+
+(Updated) Since Detkin lab does not have led screen and simply arranging multiple LEDs might be beyond the scope of this lab. We would like to simplify the design by presenting the pumpkin pattern with a single orange LED and the ghostface with a single red LED. The presenting sequence stays the same: initially, the orange LED will be lit. Once the switch is toggled, the orange LED will be off the the red LED will be on. When the switch is toggled the second time, both the yellow and red LED will be on.  
 
 ---
 ## Why we design that?
